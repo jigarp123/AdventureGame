@@ -1,0 +1,5 @@
+
+My purpose of my game is for the player to escape a haunted house. The
+player is given an overview of the game and how to play with the available
+commands. The goal is for the player to move around, collect various items, 
+and solve puzzeles to escape. The program will keep taking in commands to do an appropriate action. The rooms.c file has all the functions relating to the room. The items.c file has all the functions relating to items. The adventure.c has all the functions relating to player movement and actions. All these files structure the program in a very organized and easy to understand way. There are no global variables in this program as they are all passed as arguments in functions. This makes the code easier to read and utilizes functions for modularity. Each function also has a specific purpose for code reusability and makes it simpler to understand. If there is an invalid input like for example an invalid command, the program will simply ask the user to enter again. All possible errors are accounted for, for example, if the user does not enter an item name, the program will ask them to enter their input again.
